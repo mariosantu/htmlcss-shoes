@@ -14,6 +14,9 @@ body{
     font-family: "Rubik Mono One";
 }
 
+img {
+    width: 100%;
+}
 
 /*Common End*/
 
@@ -25,7 +28,7 @@ body{
 /*Circle  list Start*/
 
 
-.circlecontainer {
+.circle_container {
     color: white;
     width: 100%;
     padding: 20px;
@@ -37,14 +40,14 @@ body{
 
 
 
-.circlecontainer > ul {
+.circle_container > ul {
     position: absolute;
     top: 20px;
     right: 50px;
 }
 
 
-.circlecontainer .circle {
+.circle_container .circle {
     height: 50px;
     width: 50px;
     border-radius: 50%;
@@ -54,9 +57,7 @@ body{
     text-align: center;
     line-height: 50px;
     margin-left: 20px;
-
     cursor: pointer;
-  
 }
 
 
